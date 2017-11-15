@@ -1,0 +1,57 @@
+html{
+    font-size: 62.25%;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: white;
+    color: #13112b;
+}
+
+.overlay{
+    background-color: #00093b;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.overlay-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    position: absolute;
+    height: inherit;
+}
+
+
+/*--------------------------
+    NAV
+---------------------------*/
+
+/*--------------------------
+    HEADER
+---------------------------*/
+
+/*--------------------------
+    TABS
+---------------------------*/
+
+/*--------------------------
+    CLIENTS
+---------------------------*/
+
+/*--------------------------
+    TESTIMONIALS
+---------------------------*/
+
+/*--------------------------
+    CONTACT US
+---------------------------*/
+
+/*--------------------------
+    FOOTER
+---------------------------*/
