@@ -27,6 +27,15 @@ body{
     height: inherit;
 }
 
+.container{
+    max-width: 1170px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display:block
+}
 
 /*--------------------------
     NAV
@@ -37,12 +46,22 @@ body{
 ---------------------------*/
 
 /*--------------------------
-    TABS
+    FEATURES
 ---------------------------*/
+#features .box-icons img,
+#features .box-icons section{
+    display: inline-block;
+    vertical-align: top;
+}
 
-/*--------------------------
-    CLIENTS
----------------------------*/
+#features .box-icons section{
+    width: 50%;
+}    
+
+#features .charts section{
+    display: inline-block;
+}
+
 
 /*--------------------------
     TESTIMONIALS
