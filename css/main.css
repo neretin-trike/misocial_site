@@ -36,16 +36,100 @@ body{
 img{
     max-width: 100%;
     height: auto;
-    display:block
+    /* display:block */
 }
 
 /*--------------------------
     NAV
 ---------------------------*/
 
+nav{
+    padding: 5rem;
+    position: relative;
+    z-index: 999;
+    height: 5.2rem;
+    /* box-sizing: border-box; */
+}
+
+nav .logo{
+    float: left;
+}
+
+nav .logo span{
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.6rem;
+    display: inline-block;
+    
+    padding-left: 1rem;
+    padding-top: 0.25rem;
+
+    vertical-align: top;
+}
+
+nav .navbar{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    text-align:  center;
+
+    min-width: 6rem;
+    padding: 1.7rem;
+    margin: 0 1.7rem;
+}
+
+nav ul li.selected{
+    border-bottom: 0.2rem solid white;
+}   
+
+nav ul li a{
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #6e45e2;
+}    
+
+nav ul li.special{
+    border: 0.1rem solid white;
+    border-radius: 3.5rem;
+
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.06rem;
+
+    padding-left: 3.3rem;
+    padding-right: 3.3rem;
+}
+
+nav:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /*--------------------------
     HEADER
 ---------------------------*/
+
+header{
+    margin-top: -18rem;
+    background-image: url(../images/header_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header .row{
+    padding-top: 45.0rem;
+}
 
 /*--------------------------
     FEATURES
