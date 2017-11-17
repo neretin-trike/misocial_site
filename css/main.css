@@ -59,6 +59,15 @@ h2:before{
     vertical-align: middle;
 }
 
+.dark h2,
+.dark h3,
+.dark p{
+    color:#4f4f6f;
+}
+.dark h2:before{
+    background-color: #4f4f6f;
+}
+
 h3{
     font-weight: 500;
     font-size: 6.0rem;
@@ -85,7 +94,7 @@ button{
     cursor: pointer;
 
     border-radius: 3.5rem;
-    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.25); 
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5); 
     background-color: white;
 }
 
@@ -215,6 +224,29 @@ header .btn-basic{
 }
 
 header .btn-down{
+    margin-top: 16rem;
+}
+
+/*--------------------------
+    WHY CHOOSE US
+---------------------------*/
+
+#why-choose-us{
+    background-image: url(../images/why_choose_us_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#why-choose-us .container{
+    padding-top: 28.0rem;
+}
+
+#why-choose-us .btn-basic{
+    margin-top: 1.4rem;
+}
+
+#why-choose-us  .btn-down{
     margin-top: 16rem;
 }
 
