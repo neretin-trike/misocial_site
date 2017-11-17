@@ -394,6 +394,16 @@ header .btn-down{
     margin-bottom: 0;
 }
 
+#features h2:after{
+    content: "";
+    display: inline-block;
+    width: 2.4rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-left: 1.4rem;
+    vertical-align: middle;
+}
+
 
 /*--------------------------
     TESTIMONIALS
@@ -406,6 +416,29 @@ header .btn-down{
 
 #testimonial .container{
     padding-top: 20rem;
+}
+
+#testimonial blockquote{
+    color: #4f4f6f;
+    font-family: "PlayfairDisplay";
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    margin: 0;
+}
+
+#testimonial .client .user{
+    width: 6.4rem;
+    height: 6.4rem;
+    border-radius: 3.2rem;
+    background-color: #68cef0;
+    background-image: url(../images/users_24px.PNG);
+    background-repeat: no-repeat;
+    background-position: center 175%;
+}
+
+#testimonial .client .user,
+#testimonial .client section{
+    display: inline-block;
 }
 
 /*--------------------------
