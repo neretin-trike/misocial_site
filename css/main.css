@@ -39,6 +39,84 @@ img{
     /* display:block */
 }
 
+h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.07rem;
+    text-transform: uppercase;
+    color: white;
+    
+    margin-bottom: 2.4rem;
+}
+
+h2:before{
+    content: "";
+    display: inline-block;
+    width: 2.4rem;
+    height: 0.1rem;
+    background-color: white;
+    margin-right: 1.4rem;
+    vertical-align: middle;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 6.0rem;
+    letter-spacing: -0.24rem;
+    color: white;
+    line-height: 7.2rem;
+
+    margin-bottom: 4.0rem;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 2.8rem;
+
+    margin-top: 0;
+    margin-bottom: 2.6rem;
+}
+
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 3.5rem;
+    box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.25); 
+    background-color: white;
+}
+
+.btn-basic{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #c2c9db;
+    padding: 2.0rem 3.4rem;
+    min-width: 19rem;
+}
+
+.btn-down{
+    width: 6.4rem;
+    height: 6.4rem;
+
+    background-image: url(../images/arrows_down_16px.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin-bottom: 7.0rem;
+}
+
+.btn-basic:hover,
+.btn-down:hover{
+    background-color: #6e45e2;
+    color: white;
+}    
+
+
+
 /*--------------------------
     NAV
 ---------------------------*/
@@ -127,8 +205,17 @@ header{
     width: 100%;
 }
 
-header .row{
+header .container{
     padding-top: 45.0rem;
+}
+
+header .btn-basic{
+    margin-top: 2.4rem;
+    margin-left: 1rem;
+}
+
+header .btn-down{
+    margin-top: 16rem;
 }
 
 /*--------------------------
