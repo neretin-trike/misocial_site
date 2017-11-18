@@ -60,9 +60,12 @@ h2:before{
 }
 
 .dark h2,
-.dark h3,
-.dark p{
+.dark h3{
     color:#4f4f6f;
+}
+
+.dark p{
+    color: #9fa4af;
 }
 .dark h2:before{
     background-color: #4f4f6f;
@@ -531,6 +534,26 @@ header .btn-down{
 }
 
 /*--------------------------
+    ABOUT US
+---------------------------*/
+
+#about-us{
+    margin-top: -18rem;
+    background-image: url(../images/about_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    padding-top: 33.8rem;
+    margin-top: 5rem;
+}
+
+#about-us .btn-down{
+    margin-top: 15.0rem;
+    margin-bottom: 14.0rem;
+}    
+
+/*--------------------------
     BLOG
 ---------------------------*/
 
@@ -548,11 +571,6 @@ header .btn-down{
     max-width: none;
     height: 33.0rem;
 }
-
-
-/*--------------------------
-    CONTACT US
----------------------------*/
 
 /*--------------------------
     FOOTER
