@@ -628,22 +628,160 @@ header .btn-down{
 #blog{
     background-color: #f9fafc;
     border-top: 0.1rem solid #e3e6ee;
+    margin-top: -3.4rem;
+}
+
+#blog .container{
+    padding-top: 12.0rem;
+}
+
+#blog .slider-wrapper{
+    max-width: 117.0rem;
+    margin: 0 auto;
+    padding: 2.5rem 0;
+    overflow-x: hidden;
+}
+
+#blog .slider{
+    width: 500.0rem;
+    margin-left: -34rem;
 }
 
 #blog .slider article{
-    width: 24%;
+    box-sizing: border-box;
+    /* width: 23.5%; */
+    width: 57.2rem;
+    height: 33.5rem;
+
+    float:left;
+    margin: 1.4rem 1.4rem;
+
+    background-color: white;
+    border-radius: 1.0rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 32.8px 7.2px rgba(204,204, 223, 0.5); 
+}
+
+#blog .slider figure,
+#blog .slider aside{
     display: inline-block;
+    vertical-align: top;
 }
 
 #blog .slider figure{
-    overflow: hidden;
-    height: 33.0rem;
+    margin: 0;
+    height: 33.5rem;
     width: 19.5rem;
+    overflow: hidden;
 }
 #blog .slider figure img{
     max-width: none;
-    height: 33.0rem;
+    height: inherit;
+    margin-left: -50%;
 }
+
+#blog .slider aside{
+    color: #9fa4af;
+    box-sizing: border-box;
+    padding: 4rem;
+}
+
+#blog .slider figure + aside{
+    width: 65%;
+}
+
+#blog .slider aside h4{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #4f4f6f;
+    letter-spacing: -0.096rem;
+
+    margin-bottom: 1.5rem;
+}    
+
+#blog .slider aside time{
+    font-size: 1.3rem;
+}    
+
+#blog .slider aside time:after{
+    content: "";
+    display: block;
+    margin: 2.6rem 0;
+    width: 7.0rem;
+    height: 0.1rem;
+    background-color: #6e45e2;
+}    
+
+#blog .slider aside .content{
+    color: #9fa4af;
+    line-height: 2.8rem;
+    margin-bottom: 4.0rem;
+}
+
+#blog .slider aside section p{
+    float: left;
+    font-size: 1.3rem;
+    padding-left: 3.0rem;
+    background-image: url(../images/comment_16px.PNG);
+    background-repeat: no-repeat;
+    background-position: 0 0.5rem;
+}
+
+#blog .slider aside section p a{
+    color: #9fa4af;
+    text-decoration: none;
+}    
+
+#blog .slider aside section .avatar{
+    float: right;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-image: url(../images/users_24px.PNG);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+
+    border-radius: 0.5rem;
+
+}
+
+#blog .slider aside section .avatar.purple{
+    background-color: #6e45e2;
+}    
+#blog .slider aside section .avatar.pink{
+    background-color: #ff8eb3;
+}    
+#blog .slider aside section .avatar.yellow{
+    background-color: #fce33b;
+}    
+
+#blog nav{
+    clear: both;    
+    padding: 5rem 0;
+    margin:0 auto;
+    text-align: center;
+    height: 0;
+}
+
+#blog nav ul li{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    min-width: 1.0rem;
+}
+
+#blog nav ul a{
+    background-color: #e2daf9;
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.4rem;
+}    
+
+#blog nav ul a.selected{
+    background-color: #6e45e2;
+}    
 
 /*--------------------------
     FOOTER
