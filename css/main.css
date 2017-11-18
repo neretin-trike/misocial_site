@@ -784,5 +784,25 @@ header .btn-down{
 }    
 
 /*--------------------------
-    FOOTER
+    CTA
 ---------------------------*/
+#CTA{
+    background-image: url(../images/CTA_background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+#CTA .container{
+    padding-top: 20.0rem;
+    padding-bottom: 71.0rem;
+}
+
+#CTA .container h2:before{
+    width: 0;
+} 
+
+#CTA .container .btn-basic{
+    margin-right: 1.0rem;
+}    
