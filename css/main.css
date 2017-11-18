@@ -29,6 +29,10 @@ body{
     height: inherit;
 }
 
+.center{
+    text-align: center;
+}
+
 .container{
     max-width: 1170px;
 }
@@ -59,11 +63,10 @@ h2:before{
     vertical-align: middle;
 }
 
-.dark h2,
 .dark h3{
     color:#4f4f6f;
 }
-
+.dark h2,
 .dark p{
     color: #9fa4af;
 }
@@ -552,6 +555,14 @@ header .btn-down{
     margin-top: 15.0rem;
     margin-bottom: 14.0rem;
 }    
+
+/*--------------------------
+    OUR TEAMS
+---------------------------*/
+
+#our-teams{
+    text-align: center;
+}
 
 /*--------------------------
     BLOG
