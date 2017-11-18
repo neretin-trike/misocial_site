@@ -806,3 +806,66 @@ header .btn-down{
 #CTA .container .btn-basic{
     margin-right: 1.0rem;
 }    
+/*--------------------------
+    FOOTER
+---------------------------*/
+footer nav .logo span,
+footer nav .navbar a{
+    color: #37374a;
+}
+
+footer nav ul li a:hover{
+    color: 37374a;
+}    
+
+footer nav ul li.special{
+    background-color: #6e45e2;
+}
+
+footer nav ul li.special a{
+    color: white;
+}    
+
+footer .copyright{
+    margin:0 5rem;
+    border-top: 0.1rem solid #f2f2f3;
+}
+footer .copyright small{
+    color: #cfcfd2;
+    font-size: 1.4rem;
+    float: left;
+
+    padding: 3.0rem 0;
+}
+
+footer .copyright .social{
+    float: right;
+
+    padding: 3.0rem 0;
+}    
+
+footer .copyright .social div{
+    display: inline-block;
+    width: 2.8rem;
+    height:2rem;
+
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-image: url(../images/social.png);
+}
+
+footer .copyright .social #facebook{
+    background-position: 1rem 0;
+}    
+    
+footer .copyright .social #twitter{
+    background-position: -1.75rem 0;
+}
+
+footer .copyright .social #google{
+    background-position: -5.25rem 0;
+}
+
+footer .copyright .social #instagram{
+    background-position: -8.5rem 0;
+}       
